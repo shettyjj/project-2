@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-  return render_template('etheral.html')
+  return render_template('etheral.html',name='Temperature controlled Fan')
 
 
 if __name__ == "__main__":
