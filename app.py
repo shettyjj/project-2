@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-  return "hello"
+  return render_template('etheral.html')
 
 
 if __name__ == "__main__":
